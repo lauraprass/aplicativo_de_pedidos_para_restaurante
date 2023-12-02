@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>807</width>
-    <height>600</height>
+    <height>719</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -498,6 +498,20 @@ font: 87 8pt &quot;Arial Black&quot;;</string>
         </layout>
        </item>
        <item>
+        <widget class="QPushButton" name="btn_voltar_menu_inicial">
+         <property name="styleSheet">
+          <string notr="true">background-color: #adc178; 
+font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 5px;
+</string>
+         </property>
+         <property name="text">
+          <string>Voltar Menu Incial</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <spacer name="verticalSpacer_3">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -511,22 +525,13 @@ font: 87 8pt &quot;Arial Black&quot;;</string>
         </spacer>
        </item>
       </layout>
-      <zorder>widget_2</zorder>
-      <zorder>widget_cardapio</zorder>
-      <zorder>widget_status</zorder>
       <zorder>linha</zorder>
-      <zorder>widget_pagamento</zorder>
-      <zorder>widget_3</zorder>
       <zorder>widget_opcao_2</zorder>
       <zorder>verticalSpacer</zorder>
       <zorder>verticalSpacer_2</zorder>
       <zorder>verticalSpacer_3</zorder>
-      <zorder>widget_4</zorder>
-      <zorder>lbl_opcao</zorder>
-      <zorder>lbl_logo_3</zorder>
       <zorder></zorder>
-      <zorder>horizontalSpacer_7</zorder>
-      <zorder>horizontalSpacer_8</zorder>
+      <zorder>btn_voltar_menu_inicial</zorder>
      </widget>
     </item>
    </layout>
