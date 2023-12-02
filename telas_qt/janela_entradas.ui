@@ -141,8 +141,8 @@ font: 87 8pt &quot;Arial Black&quot;;
       <widget class="QPushButton" name="btn_adicionar_brusqueta">
        <property name="geometry">
         <rect>
-         <x>210</x>
-         <y>90</y>
+         <x>510</x>
+         <y>70</y>
          <width>101</width>
          <height>41</height>
         </rect>
@@ -184,7 +184,7 @@ border-radius: 5px;
         </rect>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;R$25,00&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;R$35,00&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
      </widget>
@@ -280,18 +280,18 @@ border-radius: 5px;
          <x>200</x>
          <y>40</y>
          <width>141</width>
-         <height>31</height>
+         <height>61</height>
         </rect>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Ostras In Natura&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Ostras In Natura&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;(6 unidades)&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
       <widget class="QPushButton" name="btn_adicionar_ostra">
        <property name="geometry">
         <rect>
-         <x>210</x>
-         <y>100</y>
+         <x>510</x>
+         <y>90</y>
          <width>101</width>
          <height>41</height>
         </rect>
