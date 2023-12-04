@@ -28,7 +28,7 @@ Clone o repositório para o seu sistema local.
 
     bash
 
-    git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/lauraprass/aplicativo_de_pedidos_para_restaurante)
+    git clone https://github.com/lauraprass/aplicativo_de_pedidos_para_restaurante
     
 Instale as dependências.
     
