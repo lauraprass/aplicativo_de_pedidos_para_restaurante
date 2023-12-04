@@ -44,7 +44,6 @@ Execute o aplicativo.
 
 **Uso**
 
-    Faça login com as credenciais fornecidas.
     Navegue pelo cardápio e adicione ou remova itens ao pedido.
     Finalize o pedido e acompanhe o status na tela principal.
     Utilize a função de pagamento para realizar transações individuais ou dividir a conta.
