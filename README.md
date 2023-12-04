@@ -51,6 +51,7 @@ Execute o aplicativo.
 **Contribuições**
 
 Contribuições são bem-vindas! Se você encontrar problemas ou tiver melhorias para sugerir, por favor, abra uma issue ou envie um pull request.
-Licença
+
+**Licença**
 
 Este projeto está licenciado sob a Licença MIT.
