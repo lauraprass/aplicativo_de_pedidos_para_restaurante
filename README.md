@@ -24,21 +24,21 @@ Recursos Principais
 
 **Instalação**
 
-    Clone o repositório para o seu sistema local.
+Clone o repositório para o seu sistema local.
 
     bash
 
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-
+    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+    
 Instale as dependências.
-
-bash
-
-pip install -r requirements.txt
-
+    
+    bash
+    
+    pip install -r requirements.txt
+    
 Execute o aplicativo.
-
-bash
+    
+    bash
 
     python main.py
 
