@@ -14,7 +14,7 @@
 
     🛒Gestão de Pedidos: Funcionários podem adicionar itens ao pedido, especificar quantidades, personalizações, e remover itens. Além disso, é possível finalizar o pedido para envio à cozinha.
 
-    ✅Status do Pedido: Acompanhamento em tempo real do status do pedido, indicando se está em fase de pedido, em andamento ou entregue.
+    ✅Status do Pedido: Acompanhamento em tempo real do status do pedido, indicando se está em fase de "pedido", "em andamento" ou "entregue".
 
     💲Pagamentos: Nova função para realizar pagamentos, permitindo tanto pagamentos individuais quanto a divisão da conta de forma igual. Ao finalizar o pedido, é possível analisar todos os itens pedidos juntamente com seus valores individuais.
 
