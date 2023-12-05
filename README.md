@@ -3,7 +3,7 @@
 
 👩‍🎨Este projeto consiste em um aplicativo desktop desenvolvido em Python, utilizando o framework PySide6 para a interface gráfica e QtDesigner para o design. 
 <br>
-📌O objetivo principal é proporcionar uma ferramenta eficiente para os funcionários do restaurante gerenciarem pedidos de clientes, acessando o cardápio, efetuando pedidos, acompanhando o status do pedido até a entrega, e agora também realizando pagamentos individuais ou dividindo a conta.
+📌O objetivo principal é proporcionar uma ferramenta eficiente para os funcionários do restaurante gerenciarem pedidos de clientes, acessando o cardápio, efetuando pedidos, acompanhando o status do pedido até a entrega e realizar pagamentos individuais ou dividindo a conta.
 <br>
 <br>
 🪄Recursos Principais:
