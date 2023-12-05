@@ -12,7 +12,7 @@
 
     💻Acesso ao Cardápio: Visualização fácil e rápida do cardápio do restaurante, com categorias e descrições detalhadas dos pratos.
 
-    🛒Gestão de Pedidos: Funcionários podem adicionar itens ao pedido, especificar quantidades, personalizações, e agora também remover itens. Além disso, é possível finalizar o pedido para envio à cozinha.
+    🛒Gestão de Pedidos: Funcionários podem adicionar itens ao pedido, especificar quantidades, personalizações, e remover itens. Além disso, é possível finalizar o pedido para envio à cozinha.
 
     ✅Status do Pedido: Acompanhamento em tempo real do status do pedido, indicando se está em fase de pedido, em andamento ou entregue.
 
