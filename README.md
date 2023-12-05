@@ -1,57 +1,61 @@
-# Aplicativo Desktop para Restaurantes
-## Descrição do Projeto
+# 💻👨‍🍳 Aplicativo Desktop para Restaurantes
+## 📝Descrição do Projeto
 
-Este projeto consiste em um aplicativo desktop desenvolvido em Python, utilizando o framework PySide6 para a interface gráfica e QtDesigner para o design. O objetivo principal é proporcionar uma ferramenta eficiente para os funcionários do restaurante gerenciarem pedidos de clientes, acessando o cardápio, efetuando pedidos, acompanhando o status do pedido até a entrega, e agora também realizando pagamentos individuais ou dividindo a conta.
-Recursos Principais
+👩‍🎨Este projeto consiste em um aplicativo desktop desenvolvido em Python, utilizando o framework PySide6 para a interface gráfica e QtDesigner para o design. 
+<br>
+📌O objetivo principal é proporcionar uma ferramenta eficiente para os funcionários do restaurante gerenciarem pedidos de clientes, acessando o cardápio, efetuando pedidos, acompanhando o status do pedido até a entrega, e agora também realizando pagamentos individuais ou dividindo a conta.
+<br>
+<br>
+🪄Recursos Principais:
 
-    Interface Gráfica Intuitiva: Design amigável e intuitivo para facilitar a navegação e uso pelos funcionários.
+    🎨Interface Gráfica Intuitiva: Design amigável e intuitivo para facilitar a navegação e uso pelos funcionários.
 
-    Acesso ao Cardápio: Visualização fácil e rápida do cardápio do restaurante, com categorias e descrições detalhadas dos pratos.
+    💻Acesso ao Cardápio: Visualização fácil e rápida do cardápio do restaurante, com categorias e descrições detalhadas dos pratos.
 
-    Gestão de Pedidos: Funcionários podem adicionar itens ao pedido, especificar quantidades, personalizações, e agora também remover itens. Além disso, é possível finalizar o pedido para envio à cozinha.
+    🛒Gestão de Pedidos: Funcionários podem adicionar itens ao pedido, especificar quantidades, personalizações, e agora também remover itens. Além disso, é possível finalizar o pedido para envio à cozinha.
 
-    Status do Pedido: Acompanhamento em tempo real do status do pedido, indicando se está em fase de pedido, em andamento ou entregue.
+    ✅Status do Pedido: Acompanhamento em tempo real do status do pedido, indicando se está em fase de pedido, em andamento ou entregue.
 
-    Pagamentos: Nova função para realizar pagamentos, permitindo tanto pagamentos individuais quanto a divisão da conta de forma igual. Ao finalizar o pedido, é possível analisar todos os itens pedidos juntamente com seus valores individuais.
+    💲Pagamentos: Nova função para realizar pagamentos, permitindo tanto pagamentos individuais quanto a divisão da conta de forma igual. Ao finalizar o pedido, é possível analisar todos os itens pedidos juntamente com seus valores individuais.
 
-    Banco de Dados SQLAlchemy: Utilização do SQLAlchemy para gerenciar o banco de dados, armazenando informações sobre cardápio, pedidos, status dos pedidos e pagamentos.
+    🪑Banco de Dados SQLAlchemy: Utilização do SQLAlchemy para gerenciar o banco de dados, armazenando informações sobre cardápio, pedidos, status dos pedidos e pagamentos.
 
-**Requisitos do Sistema**
+**🐍Requisitos do Sistema🐍**
 
     Python 3.x
     PySide6
     SQLAlchemy
 
-**Instalação**
+**🛠️Instalação**
 
-Clone o repositório para o seu sistema local.
+⚙️Clone o repositório para o seu sistema local.
 
     bash
 
     git clone https://github.com/lauraprass/aplicativo_de_pedidos_para_restaurante
     
-Instale as dependências.
+⚙️Instale as dependências.
     
     bash
     
     pip install -r requirements.txt
     
-Execute o aplicativo.
+⚙️Execute o aplicativo.
     
     bash
 
     python main.py
 
-**Uso**
+**🧑‍💻Uso**
 
-    Navegue pelo cardápio e adicione ou remova itens ao pedido.
-    Finalize o pedido e acompanhe o status na tela principal.
-    Utilize a função de pagamento para realizar transações individuais ou dividir a conta.
+    🫧Navegue pelo cardápio e adicione ou remova itens ao pedido.
+    🫧Finalize o pedido e acompanhe o status na tela principal.
+    🫧Utilize a função de pagamento para realizar transações individuais ou dividir a conta.
 
-**Contribuições**
+**🫂Contribuições**
 
-Contribuições são bem-vindas! Se você encontrar problemas ou tiver melhorias para sugerir, por favor, abra uma issue ou envie um pull request.
+🫧Contribuições são bem-vindas! Se você encontrar problemas ou tiver melhorias para sugerir, por favor, abra uma issue ou envie um pull request.
 
-**Licença**
+**✅Licença:**
 
-Este projeto está licenciado sob a Licença MIT.
+🫧Este projeto está licenciado sob a Licença MIT.
