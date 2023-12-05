@@ -26,7 +26,7 @@
     PySide6
     SQLAlchemy
 
-**🛠️Instalação**
+**🛠️Instalação:**
 
 ⚙️Clone o repositório para o seu sistema local.
 
@@ -46,7 +46,7 @@
 
     python main.py
 
-**🧑‍💻Uso**
+**🧑‍💻Uso:**
 
     🫧Navegue pelo cardápio e adicione ou remova itens ao pedido.
     🫧Finalize o pedido e acompanhe o status na tela principal.
