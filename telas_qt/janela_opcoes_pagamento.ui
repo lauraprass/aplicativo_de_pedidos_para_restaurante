@@ -16,17 +16,216 @@
   <widget class="QWidget" name="widget_principal" native="true">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>30</y>
-     <width>621</width>
+     <x>10</x>
+     <y>20</y>
+     <width>631</width>
      <height>551</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">background-color: #588157; </string>
    </property>
+   <widget class="QWidget" name="widget_opcoes_pagamento" native="true">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>50</y>
+      <width>541</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <widget class="QRadioButton" name="radio_btn_inteiro">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>171</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #adc178; 
+font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 5px;</string>
+     </property>
+     <property name="text">
+      <string>Pagamento Inteiro</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radio_btn_dividido">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>30</y>
+       <width>181</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #adc178; 
+font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 5px;</string>
+     </property>
+     <property name="text">
+      <string>Pagamento Dividido</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>0</y>
+       <width>61</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/icon/pay-per-click.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_pix" native="true">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>290</y>
+      <width>181</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <widget class="QPushButton" name="btn_pix">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>161</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/icon/1200px-Pix_logo.svg_.png);
+background-color: #adc178; 
+font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 5px;
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="Line" name="linha">
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>160</y>
+      <width>763</width>
+      <height>3</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_metodo_pagamento">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>180</y>
+      <width>371</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; color:#000000;&quot;&gt;Selecione o método de pagamento:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_cartao" native="true">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>290</y>
+      <width>181</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <widget class="QPushButton" name="btn_cartao">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>161</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/icon/atm-card.png);
+background-color: #adc178; 
+font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 5px;
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_dinheiro" native="true">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>290</y>
+      <width>181</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <widget class="QPushButton" name="btn_dinheiro">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>161</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/icon/money.png);
+background-color: #adc178; 
+font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 5px;
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="../../../../Downloads/GestaoEmprestimo/view/icon.qrc"/>
+ </resources>
  <connections/>
 </ui>
