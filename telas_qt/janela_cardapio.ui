@@ -20,9 +20,9 @@
       <string notr="true">background-color: #588157; 
 </string>
      </property>
-     <layout class="QVBoxLayout" name="verticalLayout_2">
+     <layout class="QVBoxLayout" name="verticalLayout">
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_11">
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
         <item>
          <spacer name="horizontalSpacer_11">
           <property name="orientation">
@@ -37,10 +37,16 @@
          </spacer>
         </item>
         <item>
-         <layout class="QHBoxLayout" name="horizontalLayout_12">
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
           <item>
            <widget class="QWidget" name="widget_7" native="true">
             <property name="minimumSize">
+             <size>
+              <width>52</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="maximumSize">
              <size>
               <width>52</width>
               <height>25</height>
@@ -50,7 +56,7 @@
              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/icon/restaurant.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
             </property>
             <property name="styleSheet">
-             <string notr="true">image: url(:/icon/restaurant.png);</string>
+             <string notr="true">image: url(:/icon/Captura_de_tela_2023-12-05_203228-removebg-preview.png);</string>
             </property>
            </widget>
           </item>
@@ -71,7 +77,7 @@
              <bool>true</bool>
             </property>
             <property name="text">
-             <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; font-style:italic; color:#005500; vertical-align:super;&quot;&gt;Sabor &amp;amp; Arte Bistrô&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; font-style:italic; color:#005500; vertical-align:super;&quot;&gt;Big Bamboo&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
             </property>
            </widget>
           </item>
@@ -99,8 +105,8 @@
         </property>
         <property name="sizeHint" stdset="0">
          <size>
-          <width>18</width>
-          <height>60</height>
+          <width>639</width>
+          <height>13</height>
          </size>
         </property>
        </spacer>
@@ -483,6 +489,20 @@ font: 87 8pt &quot;Arial Black&quot;;</string>
        </layout>
       </item>
       <item>
+       <widget class="QPushButton" name="btn_voltar_menu_principal">
+        <property name="styleSheet">
+         <string notr="true">background-color: #adc178; 
+font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 5px;
+</string>
+        </property>
+        <property name="text">
+         <string>Voltar para Menu Principal</string>
+        </property>
+       </widget>
+      </item>
+      <item>
        <spacer name="verticalSpacer_6">
         <property name="orientation">
          <enum>Qt::Vertical</enum>
@@ -500,6 +520,7 @@ font: 87 8pt &quot;Arial Black&quot;;</string>
      <zorder>linha_2</zorder>
      <zorder></zorder>
      <zorder>verticalSpacer_4</zorder>
+     <zorder>btn_voltar_menu_principal</zorder>
     </widget>
    </item>
   </layout>
