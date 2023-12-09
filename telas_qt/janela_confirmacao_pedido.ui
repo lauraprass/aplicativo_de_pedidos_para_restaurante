@@ -54,7 +54,7 @@
       <height>91</height>
      </rect>
     </property>
-    <widget class="QPushButton" name="btn_confirmar_pagamento">
+    <widget class="QPushButton" name="btn_confirmar_pedido">
      <property name="geometry">
       <rect>
        <x>20</x>
