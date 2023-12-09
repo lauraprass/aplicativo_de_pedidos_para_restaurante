@@ -1,0 +1,44 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>cooking.png</file>
+    <file>tray.png</file>
+    <file>chef.png</file>
+    <file>check.png</file>
+    <file>1200px-Pix_logo.svg_.png</file>
+    <file>money.png</file>
+    <file>atm-card.png</file>
+    <file>pix.png</file>
+    <file>pay-per-click.png</file>
+    <file>right-arrow.png</file>
+    <file>Captura_de_tela_2023-12-05_203228-removebg-preview.png</file>
+    <file>cachaça.png</file>
+    <file>cerveja.png</file>
+    <file>cachaça.png</file>
+    <file>cachaça.png</file>
+    <file>rapadura.png</file>
+    <file>guardado.png</file>
+    <file>entrada brusqueta.png</file>
+    <file>ostra in natura.png</file>
+    <file>prato 2.png</file>
+    <file>entrada brusqueta.png</file>
+    <file>entrada brusqueta.png</file>
+    <file>entradas.png</file>
+    <file>entrada 1.png</file>
+    <file>bebida.png</file>
+    <file>entradas.png</file>
+    <file>prato 2.png</file>
+    <file>prato.png</file>
+    <file>olive (1).png</file>
+    <file>olive.png</file>
+    <file>debit-card (1).png</file>
+    <file>debit-card.png</file>
+    <file>balanced-diet.png</file>
+    <file>nutrition.png</file>
+    <file>healthy-living.png</file>
+    <file>restaurant.png</file>
+    <file>icon.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>chef.png.png</file>
+  </qresource>
+</RCC>
