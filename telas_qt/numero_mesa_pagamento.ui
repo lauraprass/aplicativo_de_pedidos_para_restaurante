@@ -245,7 +245,7 @@ border-radius: 5px;
     <widget class="QPushButton" name="btn_menu_inicial">
      <property name="geometry">
       <rect>
-       <x>20</x>
+       <x>620</x>
        <y>10</y>
        <width>271</width>
        <height>61</height>
@@ -259,7 +259,7 @@ border-radius: 5px;
 </string>
      </property>
      <property name="text">
-      <string>Voltar Menu Inicial</string>
+      <string>Continuar</string>
      </property>
     </widget>
    </widget>
