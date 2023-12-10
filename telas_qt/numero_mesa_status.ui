@@ -257,7 +257,7 @@ border-radius: 5px;
 </string>
      </property>
      <property name="text">
-      <string>Voltar Menu Inicial</string>
+      <string>Continuar</string>
      </property>
     </widget>
    </widget>
