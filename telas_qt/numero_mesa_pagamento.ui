@@ -62,8 +62,8 @@
    <widget class="QWidget" name="widget_numero_mesa" native="true">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>200</y>
+      <x>50</x>
+      <y>170</y>
       <width>441</width>
       <height>91</height>
      </rect>
@@ -233,19 +233,19 @@ border-radius: 5px;
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="widget_menu_inicial" native="true">
+   <widget class="QWidget" name="widget_continuar" native="true">
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>310</y>
+      <y>290</y>
       <width>301</width>
       <height>81</height>
      </rect>
     </property>
-    <widget class="QPushButton" name="btn_menu_inicial">
+    <widget class="QPushButton" name="btn_continuar">
      <property name="geometry">
       <rect>
-       <x>620</x>
+       <x>20</x>
        <y>10</y>
        <width>271</width>
        <height>61</height>
