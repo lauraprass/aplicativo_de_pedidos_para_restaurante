@@ -227,7 +227,7 @@ border-radius: 5px;
       <string>Total:</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit">
+    <widget class="QLineEdit" name="txt_total_conta">
      <property name="geometry">
       <rect>
        <x>82</x>
