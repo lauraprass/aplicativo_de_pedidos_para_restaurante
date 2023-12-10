@@ -231,7 +231,7 @@ border-radius: 5px;
      </property>
     </widget>
    </widget>
-   <widget class="QWidget" name="widget_menu_inicial" native="true">
+   <widget class="QWidget" name="widget_continuar" native="true">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -240,7 +240,7 @@ border-radius: 5px;
       <height>81</height>
      </rect>
     </property>
-    <widget class="QPushButton" name="btn_menu_inicial">
+    <widget class="QPushButton" name="btn_continuar">
      <property name="geometry">
       <rect>
        <x>20</x>
