@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>528</width>
-    <height>430</height>
+    <width>550</width>
+    <height>494</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,8 +18,8 @@
     <rect>
      <x>10</x>
      <y>10</y>
-     <width>511</width>
-     <height>411</height>
+     <width>531</width>
+     <height>471</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -101,8 +101,8 @@ border-radius: 5px;
    <widget class="QWidget" name="widget_flor" native="true">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>340</y>
+      <x>20</x>
+      <y>410</y>
       <width>81</width>
       <height>41</height>
      </rect>
@@ -133,8 +133,8 @@ border-radius: 5px;
    <widget class="QWidget" name="widget_flor_2" native="true">
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>340</y>
+      <x>180</x>
+      <y>410</y>
       <width>81</width>
       <height>41</height>
      </rect>
@@ -165,8 +165,8 @@ border-radius: 5px;
    <widget class="QWidget" name="widget_flor_3" native="true">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>340</y>
+      <x>330</x>
+      <y>410</y>
       <width>81</width>
       <height>41</height>
      </rect>
@@ -232,6 +232,36 @@ border-radius: 5px;
       </widget>
      </item>
     </layout>
+   </widget>
+   <widget class="QWidget" name="widget_menu_inicial" native="true">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>310</y>
+      <width>301</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <widget class="QPushButton" name="btn_menu_inicial">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>271</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #adc178; 
+font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 5px;
+</string>
+     </property>
+     <property name="text">
+      <string>Voltar Menu Inicial</string>
+     </property>
+    </widget>
    </widget>
   </widget>
  </widget>
