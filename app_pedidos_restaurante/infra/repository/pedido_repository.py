@@ -1,7 +1,6 @@
 from sqlalchemy import create_engine, Column, Integer, String, Float, ForeignKey
 from sqlalchemy.orm import relationship, Session
 from sqlalchemy.ext.declarative import declarative_base
-from itemMenu_repository import itemMenuRepository
 
 Base = declarative_base()
 
