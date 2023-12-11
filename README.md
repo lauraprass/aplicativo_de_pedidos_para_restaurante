@@ -22,9 +22,9 @@ Para acessar nosso Diagrama de Caso de Uso, Diagrama de Classes e Apresentação
 
     💻Acesso ao Cardápio: Visualização fácil e rápida do cardápio do restaurante, com categorias e descrições detalhadas dos pratos.
 
-    🛒Gestão de Pedidos: Funcionários podem adicionar itens ao pedido, especificar quantidades, personalizações, e remover itens. Além disso, é possível finalizar o pedido para envio à cozinha.
+    🛒Gestão de Pedidos: Funcionários podem adicionar itens ao pedido e finalizar o pedido para envio à cozinha.
 
-    ✅Status do Pedido: Acompanhamento em tempo real do status do pedido, indicando se está em fase de "pedido", "em andamento" ou "entregue".
+    ✅Status do Pedido: Acompanhamento em tempo real do status do pedido, indicando se está em fase de "recebido", "em preparo" ou "servido".
 
     💲Pagamentos: Nova função para realizar pagamentos, permitindo tanto pagamentos individuais quanto a divisão da conta de forma igual. Ao finalizar o pedido, é possível analisar todos os itens pedidos juntamente com seus valores individuais.
 
@@ -58,7 +58,7 @@ Para acessar nosso Diagrama de Caso de Uso, Diagrama de Classes e Apresentação
 
 ## **🧑‍💻Uso:**
 
-    🫧Navegue pelo cardápio e adicione ou remova itens ao pedido.
+    🫧Navegue pelo cardápio e adicione itens ao pedido.
     🫧Finalize o pedido e acompanhe o status na tela principal.
     🫧Utilize a função de pagamento para realizar transações individuais ou dividir a conta.
 
