@@ -110,7 +110,7 @@ border-radius: 5px;
   </widget>
  </widget>
  <resources>
-  <include location="../../../../Downloads/GestaoEmprestimo/view/icon.qrc"/>
+  <include location="icon.qrc"/>
  </resources>
  <connections/>
 </ui>

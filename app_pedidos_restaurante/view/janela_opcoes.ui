@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>947</width>
-    <height>719</height>
+    <height>0</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -512,9 +512,6 @@ border-radius: 5px;
         </spacer>
        </item>
       </layout>
-      <zorder>linha</zorder>
-
-      <zorder>btn_voltar_menu_inicial</zorder>
      </widget>
     </item>
    </layout>

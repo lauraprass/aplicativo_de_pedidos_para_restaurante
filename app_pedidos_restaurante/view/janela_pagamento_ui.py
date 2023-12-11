@@ -16,8 +16,8 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QImage, QKeySequence, QLinearGradient, QPainter,
     QPalette, QPixmap, QRadialGradient, QTransform)
 from PySide6.QtWidgets import (QApplication, QDialog, QFrame, QLabel,
-    QListWidget, QListWidgetItem, QPushButton, QSizePolicy,
-    QWidget)
+    QLineEdit, QListWidget, QListWidgetItem, QPushButton,
+    QSizePolicy, QWidget)
 import resource_rc
 
 class Ui_Pagamento(object):
@@ -27,7 +27,7 @@ class Ui_Pagamento(object):
         Dialog.resize(750, 651)
         self.widget_principal = QWidget(Dialog)
         self.widget_principal.setObjectName(u"widget_principal")
-        self.widget_principal.setGeometry(QRect(30, 30, 641, 571))
+        self.widget_principal.setGeometry(QRect(40, 40, 641, 601))
         self.widget_principal.setStyleSheet(u"background-color: #588157; ")
         self.widget_list_conta = QWidget(self.widget_principal)
         self.widget_list_conta.setObjectName(u"widget_list_conta")
@@ -37,7 +37,7 @@ class Ui_Pagamento(object):
         self.list_conta.setGeometry(QRect(10, 10, 531, 351))
         self.widget_voltar = QWidget(self.widget_principal)
         self.widget_voltar.setObjectName(u"widget_voltar")
-        self.widget_voltar.setGeometry(QRect(20, 450, 241, 80))
+        self.widget_voltar.setGeometry(QRect(60, 500, 241, 80))
         self.btn_voltar_menu_principal = QPushButton(self.widget_voltar)
         self.btn_voltar_menu_principal.setObjectName(u"btn_voltar_menu_principal")
         self.btn_voltar_menu_principal.setGeometry(QRect(10, 10, 221, 61))
@@ -48,7 +48,7 @@ class Ui_Pagamento(object):
 "")
         self.widget_realiza_pagamento = QWidget(self.widget_principal)
         self.widget_realiza_pagamento.setObjectName(u"widget_realiza_pagamento")
-        self.widget_realiza_pagamento.setGeometry(QRect(310, 450, 241, 80))
+        self.widget_realiza_pagamento.setGeometry(QRect(350, 500, 241, 80))
         self.btn_realizar_pagamento = QPushButton(self.widget_realiza_pagamento)
         self.btn_realizar_pagamento.setObjectName(u"btn_realizar_pagamento")
         self.btn_realizar_pagamento.setGeometry(QRect(10, 10, 221, 61))
@@ -57,17 +57,9 @@ class Ui_Pagamento(object):
 "font: 75 10pt \"MS Shell Dlg 2\";\n"
 "border-radius: 5px;\n"
 "")
-        self.lbl_total_conta = QLabel(self.widget_principal)
-        self.lbl_total_conta.setObjectName(u"lbl_total_conta")
-        self.lbl_total_conta.setGeometry(QRect(400, 380, 151, 31))
-        self.lbl_total_conta.setStyleSheet(u"background-color: #adc178; \n"
-"font: 75 8pt \"MS Shell Dlg 2\";\n"
-"font: 75 10pt \"MS Shell Dlg 2\";\n"
-"border-radius: 5px;\n"
-"")
         self.linha = QFrame(self.widget_principal)
         self.linha.setObjectName(u"linha")
-        self.linha.setGeometry(QRect(-30, 420, 763, 3))
+        self.linha.setGeometry(QRect(-10, 480, 763, 3))
         self.linha.setFrameShape(QFrame.HLine)
         self.linha.setFrameShadow(QFrame.Sunken)
         self.lbl_flor = QLabel(self.widget_principal)
@@ -90,6 +82,21 @@ class Ui_Pagamento(object):
         self.lbl_logo_dois.setObjectName(u"lbl_logo_dois")
         self.lbl_logo_dois.setGeometry(QRect(570, 220, 71, 51))
         self.lbl_logo_dois.setStyleSheet(u"image: url(:/icon/Captura_de_tela_2023-12-05_203228-removebg-preview.png);")
+        self.widget = QWidget(self.widget_principal)
+        self.widget.setObjectName(u"widget")
+        self.widget.setGeometry(QRect(210, 390, 371, 80))
+        self.lbl_total_conta = QLabel(self.widget)
+        self.lbl_total_conta.setObjectName(u"lbl_total_conta")
+        self.lbl_total_conta.setGeometry(QRect(10, 10, 341, 51))
+        self.lbl_total_conta.setStyleSheet(u"background-color: #588157; \n"
+"font: 75 8pt \"MS Shell Dlg 2\";\n"
+"font: 75 10pt \"MS Shell Dlg 2\";\n"
+"border-radius: 5px;\n"
+"")
+        self.txt_total_conta = QLineEdit(self.widget)
+        self.txt_total_conta.setObjectName(u"txt_total_conta")
+        self.txt_total_conta.setGeometry(QRect(82, 21, 251, 31))
+        self.txt_total_conta.setStyleSheet(u"background-color: #adc178; ")
 
         self.retranslateUi(Dialog)
 
@@ -97,14 +104,14 @@ class Ui_Pagamento(object):
     # setupUi
 
     def retranslateUi(self, Dialog):
-        Dialog.setWindowTitle(QCoreApplication.translate("Dialog", u"Pagamentos", None))
+        Dialog.setWindowTitle(QCoreApplication.translate("Dialog", u"Dialog", None))
         self.btn_voltar_menu_principal.setText(QCoreApplication.translate("Dialog", u"Voltar para Menu Principal", None))
         self.btn_realizar_pagamento.setText(QCoreApplication.translate("Dialog", u"Realizar Pagamento", None))
-        self.lbl_total_conta.setText(QCoreApplication.translate("Dialog", u"Total:", None))
         self.lbl_flor.setText("")
         self.lbl_flor_tres.setText("")
         self.lbl_logo.setText("")
         self.lbl_flor_dois.setText("")
         self.lbl_logo_dois.setText("")
+        self.lbl_total_conta.setText(QCoreApplication.translate("Dialog", u"Total:", None))
     # retranslateUi
 

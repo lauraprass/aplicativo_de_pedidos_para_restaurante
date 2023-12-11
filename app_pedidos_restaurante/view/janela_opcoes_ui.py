@@ -252,22 +252,10 @@ class Ui_Opcoes(object):
 
         self.verticalLayout.addLayout(self.horizontalLayout_5)
 
-        self.btn_voltar_menu_inicial = QPushButton(self.widget)
-        self.btn_voltar_menu_inicial.setObjectName(u"btn_voltar_menu_inicial")
-        self.btn_voltar_menu_inicial.setStyleSheet(u"background-color: #adc178; \n"
-"font: 75 8pt \"MS Shell Dlg 2\";\n"
-"font: 75 10pt \"MS Shell Dlg 2\";\n"
-"border-radius: 5px;\n"
-"")
-
-        self.verticalLayout.addWidget(self.btn_voltar_menu_inicial)
-
         self.verticalSpacer_3 = QSpacerItem(18, 60, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
         self.verticalLayout.addItem(self.verticalSpacer_3)
 
-        self.linha.raise_()
-        self.btn_voltar_menu_inicial.raise_()
 
         self.verticalLayout_2.addWidget(self.widget)
 
@@ -279,7 +267,7 @@ class Ui_Opcoes(object):
     # setupUi
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Menu", None))
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
 #if QT_CONFIG(tooltip)
         self.widget_2.setToolTip(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><img src=\":/icon/restaurant.png\"/></p></body></html>", None))
 #endif // QT_CONFIG(tooltip)
@@ -292,6 +280,5 @@ class Ui_Opcoes(object):
         self.lbl_status.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p align=\"center\"><span style=\" font-size:11pt; font-weight:600; color:#005500;\">ACOMPANHAR</span></p><p align=\"center\"><span style=\" font-size:11pt; font-weight:600; color:#005500;\">PEDIDO</span></p></body></html>", None))
         self.btn_pagamento.setText("")
         self.label_pagamento.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:11pt; font-weight:600; color:#005500;\">PAGAMENTO</span></p></body></html>", None))
-        self.btn_voltar_menu_inicial.setText(QCoreApplication.translate("MainWindow", u"Voltar Menu Incial", None))
     # retranslateUi
 

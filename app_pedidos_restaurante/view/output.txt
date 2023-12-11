@@ -1,0 +1,3 @@
+Error: janela_cardapio.ui: Warning: Z-order assignment: '' is not a valid widget.
+
+while executing 'D:\Python\Lib\site-packages\PySide6\uic -g python janela_cardapio.ui -o cardapio_ui.py'
