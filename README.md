@@ -1,4 +1,8 @@
 # 💻👨‍🍳 Aplicativo Desktop para Restaurantes
+ 
+  ## 🕵️‍♂️🕵️‍♀️🕵️‍♂️Desenvolvedores do projeto
+  <img src="https://cdn.discordapp.com/attachments/1011116180402081852/1183625479241084958/Screenshot_57.png?ex=65890420&is=65768f20&hm=7247cc08429e30ac625b03b4d4a9bdf2ef0ae64628998a3b387848661e13979b&"/> 
+  
 ## 📝Descrição do Projeto
 
 👩‍🎨Este projeto consiste em um aplicativo desktop desenvolvido em Python, utilizando o framework PySide6 para a interface gráfica e QtDesigner para o design. 
@@ -6,6 +10,11 @@
 📌O objetivo principal é proporcionar uma ferramenta eficiente para os funcionários do restaurante gerenciarem pedidos de clientes, acessando o cardápio, efetuando pedidos, acompanhando o status do pedido até a entrega e realizar pagamentos individuais ou dividindo a conta.
 <br>
 <br>
+##
+## 🔎Nosso Kanban:
+<img src="https://cdn.discordapp.com/attachments/1011116180402081852/1183625922549645332/Design_sem_nome_2.gif?ex=6589048a&is=65768f8a&hm=01c0207d7e0da3da989f5595fd8a9e04f8aa0673a4043fa4793df60f42fa3c21&"/> 
+
+
 🪄Recursos Principais:
 
     🎨Interface Gráfica Intuitiva: Design amigável e intuitivo para facilitar a navegação e uso pelos funcionários.
