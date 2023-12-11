@@ -190,7 +190,7 @@ border-radius: 5px;
       <height>51</height>
      </rect>
     </property>
-    <widget class="QLabel" name="lbl_voltar_menu">
+    <widget class="QLabel" name="lbl_status_pedido">
      <property name="geometry">
       <rect>
        <x>100</x>

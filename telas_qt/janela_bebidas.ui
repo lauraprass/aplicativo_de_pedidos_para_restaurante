@@ -6,9 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>861</width>
-    <height>602</height>
+    <width>894</width>
+    <height>639</height>
    </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
@@ -21,6 +27,12 @@
      <width>780</width>
      <height>571</height>
     </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
    </property>
    <property name="maximumSize">
     <size>
@@ -392,7 +404,7 @@ border-radius: 5px;
   </widget>
  </widget>
  <resources>
-  <include location="../../../../Downloads/GestaoEmprestimo/view/icon.qrc"/>
+  <include location="../view/icon.qrc"/>
  </resources>
  <connections/>
 </ui>

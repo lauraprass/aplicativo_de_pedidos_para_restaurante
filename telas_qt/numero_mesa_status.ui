@@ -6,265 +6,198 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>552</width>
-    <height>543</height>
+    <width>570</width>
+    <height>513</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QWidget" name="widget_principal" native="true">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>20</y>
-     <width>501</width>
-     <height>511</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: #588157; </string>
-   </property>
-   <widget class="QWidget" name="widget_status" native="true">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>20</y>
-      <width>331</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <widget class="QLabel" name="lbl_status_pedido">
-     <property name="geometry">
-      <rect>
-       <x>100</x>
-       <y>15</y>
-       <width>171</width>
-       <height>21</height>
-      </rect>
-     </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QWidget" name="widget_principal" native="true">
      <property name="styleSheet">
-      <string notr="true">background-color: #adc178; 
+      <string notr="true">background-color: #588157; </string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QWidget" name="widget_status" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>201</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="lbl_status_pedido">
+           <property name="styleSheet">
+            <string notr="true">background-color: #adc178; 
 font: 75 8pt &quot;MS Shell Dlg 2&quot;;
 font: 75 10pt &quot;MS Shell Dlg 2&quot;;
 border-radius: 5px;
 </string>
-     </property>
-     <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Status do Pedido&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-     </property>
-    </widget>
-   </widget>
-   <widget class="QWidget" name="widget_numero_mesa" native="true">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>240</y>
-      <width>441</width>
-      <height>91</height>
-     </rect>
-    </property>
-    <widget class="QLineEdit" name="txt_numero_mesa">
-     <property name="geometry">
-      <rect>
-       <x>270</x>
-       <y>20</y>
-       <width>161</width>
-       <height>41</height>
-      </rect>
-     </property>
-    </widget>
-    <widget class="QLabel" name="lbl_numero_mesa">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>20</y>
-       <width>171</width>
-       <height>61</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Status do Pedido&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>201</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_logo" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="lbl_logo">
+           <property name="minimumSize">
+            <size>
+             <width>52</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/icon/Captura_de_tela_2023-12-05_203228-removebg-preview.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="Line" name="linha">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_numero_mesa" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QLabel" name="lbl_numero_mesa">
+           <property name="styleSheet">
+            <string notr="true">font: 75 8pt &quot;MS Shell Dlg 2&quot;;
 font: 75 10pt &quot;MS Shell Dlg 2&quot;;
 border-radius: 5px;
 </string>
-     </property>
-     <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Selecione o número &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;da mesa:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-     </property>
-    </widget>
-   </widget>
-   <widget class="QWidget" name="widget_logo" native="true">
-    <property name="geometry">
-     <rect>
-      <x>180</x>
-      <y>80</y>
-      <width>121</width>
-      <height>71</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="horizontalLayout">
-     <item>
-      <widget class="QLabel" name="lbl_logo">
-       <property name="minimumSize">
-        <size>
-         <width>52</width>
-         <height>25</height>
-        </size>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">image: url(:/icon/Captura_de_tela_2023-12-05_203228-removebg-preview.png);</string>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="Line" name="linha">
-    <property name="geometry">
-     <rect>
-      <x>-50</x>
-      <y>180</y>
-      <width>763</width>
-      <height>3</height>
-     </rect>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="QWidget" name="widget_flor" native="true">
-    <property name="geometry">
-     <rect>
-      <x>50</x>
-      <y>450</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <widget class="QLabel" name="lbl_flor">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>10</y>
-       <width>52</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="minimumSize">
-      <size>
-       <width>52</width>
-       <height>25</height>
-      </size>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">image: url(:/icon/healthy-living.png);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-   </widget>
-   <widget class="QWidget" name="widget_flor_2" native="true">
-    <property name="geometry">
-     <rect>
-      <x>180</x>
-      <y>450</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <widget class="QLabel" name="lbl_flor_2">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>10</y>
-       <width>52</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="minimumSize">
-      <size>
-       <width>52</width>
-       <height>25</height>
-      </size>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">image: url(:/icon/healthy-living.png);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-   </widget>
-   <widget class="QWidget" name="widget_flor_3" native="true">
-    <property name="geometry">
-     <rect>
-      <x>320</x>
-      <y>450</y>
-      <width>81</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <widget class="QLabel" name="lbl_flor_3">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>10</y>
-       <width>52</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="minimumSize">
-      <size>
-       <width>52</width>
-       <height>25</height>
-      </size>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">image: url(:/icon/healthy-living.png);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-    </widget>
-   </widget>
-   <widget class="QWidget" name="widget_continuar" native="true">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>350</y>
-      <width>301</width>
-      <height>81</height>
-     </rect>
-    </property>
-    <widget class="QPushButton" name="btn_continuar">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>10</y>
-       <width>271</width>
-       <height>61</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: #adc178; 
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Selecione o número &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;da mesa:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>121</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="txt_numero_mesa"/>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>121</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_continuar" native="true">
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="0" column="0">
+          <widget class="QPushButton" name="btn_continuar">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: #adc178; 
 font: 75 8pt &quot;MS Shell Dlg 2&quot;;
 font: 75 10pt &quot;MS Shell Dlg 2&quot;;
 border-radius: 5px;
 </string>
-     </property>
-     <property name="text">
-      <string>Continuar</string>
-     </property>
+           </property>
+           <property name="text">
+            <string>Continuar</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_flor" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QLabel" name="lbl_flor">
+           <property name="minimumSize">
+            <size>
+             <width>52</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">image: url(:/icon/healthy-living.png);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
     </widget>
-   </widget>
-  </widget>
+   </item>
+  </layout>
  </widget>
  <resources>
-  <include location="../../../../Downloads/GestaoEmprestimo/view/icon.qrc"/>
+  <include location="../view/icon.qrc"/>
  </resources>
  <connections/>
 </ui>
