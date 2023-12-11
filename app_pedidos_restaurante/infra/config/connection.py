@@ -6,7 +6,7 @@ class DBConnectionHandler:
 
     def __init__(self):
         self.__connect_string = 'sqlite:///restaurante.db'
-        self.__engine = self.create_table()
+        self.__engine = self.__create_database_engine()
         self.create_table()
         self.session = None
 
@@ -16,6 +16,10 @@ class DBConnectionHandler:
     def create_table(self):
         engine = create_engine(self.__connect_string, echo=True)
         Base.metadata.create_all(engine, checkfirst=True)
+    def __create_database_engine(self):
+        engine = create_engine(self.__connect_string)
+        return engine
+
 
     def __enter__(self):
         session_make = sessionmaker(bind=self.__engine)
