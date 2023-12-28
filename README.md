@@ -1,7 +1,7 @@
 # 💻👨‍🍳 Aplicativo Desktop para Restaurantes
  
   ## 🕵️‍♂️🕵️‍♀️🕵️‍♂️Desenvolvedores do projeto
-<img src="https://cdn.discordapp.com/attachments/1011116180402081852/1183625479241084958/Screenshot_57.png?ex=65890420&is=65768f20&hm=7247cc08429e30ac625b03b4d4a9bdf2ef0ae64628998a3b387848661e13979b&"/> 
+<img src="https://cdn.discordapp.com/attachments/1011116180402081852/1189943989244276736/Screenshot_56.png?ex=65a000b3&is=658d8bb3&hm=9122b239aa35e42b2b4eac697dbabdfb3ed5679cafcc039114ccd832fda4499b&"/> 
   
 ## 📝Descrição do Projeto
 
