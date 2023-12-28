@@ -13,7 +13,7 @@ Para acessar nosso Diagrama de Caso de Uso, Diagrama de Classes e Apresentação
 <br>
 ##
 ## 🔎Nosso Kanban:
-<img src="https://cdn.discordapp.com/attachments/1011116180402081852/1183625922549645332/Design_sem_nome_2.gif?ex=6589048a&is=65768f8a&hm=01c0207d7e0da3da989f5595fd8a9e04f8aa0673a4043fa4793df60f42fa3c21&"/> 
+<img src="https://cdn.discordapp.com/attachments/1011116180402081852/1189945067755032736/Design_sem_nome_2.gif?ex=65a001b4&is=658d8cb4&hm=d9318ec5f7d95eecd8fdd534e8055389fdbd6eba208f84c5ff8dac31da9ba0c4&"/> 
 
 
 ## 🪄Recursos Principais:
